@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02141E" />
+      <stop offset="100%" stop-color="#000810" />
+    </linearGradient>
+    <linearGradient id="dragonGradient" x1="30%" y1="30%" x2="70%" y2="70%">
+      <stop offset="10%" stop-color="#0036C7" />
+      <stop offset="90%" stop-color="#002AA0" />
+    </linearGradient>
+    <linearGradient id="highlightGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3060FF" />
+      <stop offset="100%" stop-color="#0036C7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGradient)" />
+  
+  <!-- Dragon Logo - Abstract, Sharp, Modern -->
+  <g transform="translate(90, 90) scale(0.65)">
+    <!-- Main Dragon Shape -->
+    <path d="M250,100 
+             C190,110 150,150 130,190
+             C170,170 210,160 250,170
+             C280,130 320,110 370,100
+             C330,130 300,160 280,200
+             C310,210 340,230 360,260
+             C330,240 300,230 260,230
+             C270,260 270,300 260,340
+             C240,300 230,260 230,220
+             C200,240 180,270 170,310
+             C160,270 170,220 190,190
+             C160,190 130,200 100,220
+             C120,180 160,150 200,140
+             Z" 
+          fill="url(#dragonGradient)" />
+    
+    <!-- Dragon Horn/Crest -->
+    <path d="M250,170
+             C290,150 310,100 320,60
+             C310,100 290,130 260,150
+             Z" 
+          fill="url(#dragonGradient)" />
+    
+    <!-- Dragon Wing -->
+    <path d="M230,220
+             C260,210 290,210 320,230
+             C350,250 370,290 370,330
+             C340,290 310,260 270,250
+             C260,280 240,300 210,310
+             C230,280 240,250 230,220
+             Z" 
+          fill="url(#dragonGradient)" />
+    
+    <!-- Highlights/Accents -->
+    <path d="M250,170
+             C280,160 300,140 310,110
+             C300,140 270,150 250,170
+             Z" 
+          fill="url(#highlightGradient)" />
+    
+    <path d="M190,190
+             C210,180 230,180 250,190
+             C230,190 210,190 190,190
+             Z" 
+          fill="url(#highlightGradient)" />
+    
+    <path d="M260,230
+             C280,220 300,220 320,230
+             C300,230 280,230 260,230
+             Z" 
+          fill="url(#highlightGradient)" />
+    
+    <!-- Eye -->
+    <ellipse cx="215" cy="190" rx="8" ry="6" fill="#FFF" opacity="0.8" />
+  </g>
+</svg>

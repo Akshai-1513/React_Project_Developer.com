@@ -1,0 +1,25 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.app {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+.about-header{
+    color: black;
+    margin-left: 170px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 95%;
+    padding: 0 10px;
+  }
+}
